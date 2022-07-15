@@ -14,11 +14,27 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
 .header-container {
     width: 100%;
     height: 500px;
-    position: absolute;
     background-image: url(images/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .header-content {
@@ -40,14 +56,46 @@ h1 {
 .banner-content p {
     width: 40%;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-element {
+    width: 40%;
+    height: 450px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.content-element2 {
+    width: 40%;
+    height: 450px;
+    margin: 10px;
+    background-image: url(images/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.content-container h2 {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .button {
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: tomato;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 700;
     color: white;
     border: none;
+    margin-top: 20px;
 }
