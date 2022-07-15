@@ -17,6 +17,12 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
 
 .header-container {
@@ -85,10 +91,7 @@ h2 {
     border-style: none;
 }
 
-.content-container h2 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+
 
 .content-element3 {
     margin: 10px 40px 10px 10px;
@@ -102,4 +105,40 @@ h2 {
     color: white;
     border: none;
     margin-top: 20px;
+}
+
+.help-container {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.help-element-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.help-element {
+    width: 75%;
+    display: flex;
+    margin: 10px;
+
+}
+
+.help-box {
+    width: 100%;
+    display: flex;
+    margin: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(216, 112, 147, 0.24);
+    padding: 20px;
+}
+
+.help-box-content {
+    margin: 0 20px;
 }
