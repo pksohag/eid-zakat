@@ -1,0 +1,53 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-width {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.header-container {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-image: url(images/Rectangle\ 1.jpg);
+}
+
+.header-content {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.301));
+}
+
+.banner-content {}
+
+.banner-content h1 {
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: tomato;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
