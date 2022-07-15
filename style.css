@@ -51,8 +51,6 @@ h3 {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.301));
 }
 
-.banner-content {}
-
 .banner-content h1 {
     width: 40%;
     margin-top: 100px;
@@ -108,7 +106,7 @@ h3 {
 }
 
 .help-container {
-    width: 45%;
+    width: 50%;
     text-align: center;
     margin: auto;
 }
@@ -141,4 +139,48 @@ h3 {
 
 .help-box-content {
     margin: 0 20px;
+}
+
+.content-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.donate-box {
+    margin: 10px;
+}
+
+.donate-box-content {
+    border-left: 1px solid rgba(128, 128, 128, 0.411);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+    border-right: 1px solid rgba(128, 128, 128, 0.411);
+    border-radius: 0 0 7px 7px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    padding: 20px 10px;
+}
+
+.donate-box h3 {
+    margin: 0 10px 10px 10px;
+}
+
+.donate-box p {
+    margin: 10px;
+}
+
+.donate-box a {
+    font-weight: 700;
+    font-size: 15px;
+    color: brown;
+    margin: 10px;
+
+}
+
+footer {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 20px;
 }
